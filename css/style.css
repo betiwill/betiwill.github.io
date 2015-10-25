@@ -1,0 +1,97 @@
+body {
+	background-color: teal;
+	background-image: url(../images/back.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.main {
+	background: rgba(255,255,255,0.4);
+	width: 600px;
+	margin: 0 auto;
+	padding: 50px;
+	border-radius: 20px;
+	box-shadow: 0 0 20px 10px grey;
+}
+
+h1 {
+	font-family: 'Fenix', serif;
+	font-size: 50px;
+	letter-spacing: 5px;
+	color: silver;
+	margin: 0;
+	text-shadow: 3px 3px 0px black;	
+}
+
+h1,
+h2 {
+	text-align:center;
+}
+
+h1 {
+	color: white;
+}
+
+h2 {
+	color: white;
+	font-weight:normal;
+	text-transform: uppercase;
+	font-size: 19px;
+	letter-spacing: 15px;
+	text-shadow: 1px 1px 0px black;	
+	border-top: 2px solid black;
+	padding-top: 20px;
+}
+
+h3 {
+	color: white;
+	text-shadow: 1px 1px 0px black;	
+}
+
+h3 {
+	cursor: pointer;
+}
+
+h3, 
+div p {	
+	margin-bottom: 0;
+}
+
+/* this is the frame bit on the pic */
+
+img {
+	width: 225px;
+	height: 225px;
+	display: block;
+	margin: 0 auto;
+	border-radius: 50%;
+	border: 30px solid white;
+}
+
+p,
+ul,
+ol {
+	line height: 1.4;
+	list-style: none;
+	padding: 0;
+}
+
+
+h3:first-of-type {
+	color: white;
+}
+
+a {
+	color: grey
+	font-weight: bold;
+	text-decoration: none;
+
+/* this bit adds the interactivity */
+
+}
+a:hover,
+a:focus {
+	color: pink;
+	text-decoration: underline;
+
